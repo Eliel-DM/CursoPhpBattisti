@@ -22,7 +22,7 @@ Orientação a Objetos.
 -   [x] Seção 2: Conceitos básicos de PHP
 -   [x] Seção 3: Tipos de dados
 -   [x] Seção 4: Variáveis
--   [ ] Seção 5: Expressões e Operadores
+-   [x] Seção 5: Expressões e Operadores
 -   [ ] Seção 6: Estruturas de Controle (if, else, switch)
 -   [ ] Seção 7: Estruturas de Repetição (for, while, foreach)
 -   [ ] Seção 8: Inclusão de código (include, require)
