@@ -16,12 +16,13 @@ Verificação de Acesso
         Se a idade for maior ou igual a 18 anos, mas a autorização for falsa, retorne a string "Acesso negado. Autorização necessária".
 */
 
-function verificarAcesso(int $idade, bool $autorizacao) {
-    if($idade >= 18 && $autorizacao){
+function verificarAcesso(int $idade, bool $autorizacao)
+{
+    if ($idade >= 18 && $autorizacao) {
         return "Acesso autorizado";
-    } else if ($idade < 18){
-        return "Acesso negado. Idade mínima requerida: 18 anos".;
-    } else if ($idade >= 18 && $autorizacao == false ){
+    } else if ($idade < 18) {
+        return "Acesso negado. Idade mínima requerida: 18 anos";
+    } else if ($idade >= 18 && $autorizacao == false) {
         return "Acesso negado. Autorização necessária";
     }
 }

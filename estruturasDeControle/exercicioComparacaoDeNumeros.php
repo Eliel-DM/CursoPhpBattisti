@@ -20,7 +20,6 @@ Comparação de Números
 */
 
 
-
 function compararNumeros($a, $b)
 {
     if ($a > $b) {
