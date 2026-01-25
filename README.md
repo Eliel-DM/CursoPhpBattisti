@@ -26,7 +26,7 @@ Orientação a Objetos.
 -   [x] Seção 6: Estruturas de Controle (if, else, switch)
 -   [x] Seção 7: Estruturas de Repetição (for, while, foreach)
 -   [x] Seção 8: Inclusão de código (include, require)
--   [ ] Seção 9: Funções
+-   [x] Seção 9: Funções
 -   [ ] Seção 10: Avançando em Strings
 -   [ ] Seção 11: Avançando em Arrays
 
