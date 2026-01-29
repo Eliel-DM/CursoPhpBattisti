@@ -52,12 +52,13 @@ consolidar o conhecimento:
 
   Projeto 2: Agenda   Sistema de agenda de contatos  ⏳ Pendente
                       (CRUD) com integração ao Banco 
-                      de Dados (Seção 17).           
+                      de Dados (Seção 17).      
 
   Projeto 3:          Aplicação completa de          ⏳ Pendente
   MovieStar           avaliação de filmes utilizando 
                       Orientação a Objetos e         
                       arquitetura MVC (Seção 20).    
+
   ------------------------------------------------------------------------
 
 ### Extras (Frontend)
