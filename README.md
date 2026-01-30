@@ -27,7 +27,7 @@ Orientação a Objetos.
 -   [x] Seção 7: Estruturas de Repetição (for, while, foreach)
 -   [x] Seção 8: Inclusão de código (include, require)
 -   [x] Seção 9: Funções
--   [ ] Seção 10: Avançando em Strings
+-   [x] Seção 10: Avançando em Strings
 -   [ ] Seção 11: Avançando em Arrays
 
 ### Avançado e Web
