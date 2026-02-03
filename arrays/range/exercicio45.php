@@ -9,12 +9,12 @@
 
 $arr = range(10,45);
 
-print_r($arr);
+
 
 for($x = 0; $x < count($arr); $x++){
      if ($arr[$x]+6 > 30){
         echo "O número é muito alto";
     }
-    echo $arr[$x] . "<br>";
+    echo $arr[$x] + 6 . "<br>";
    
 }
