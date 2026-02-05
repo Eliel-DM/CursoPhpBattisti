@@ -8,14 +8,16 @@
 
 
 $arr = [
-    ["eliel", "Tatu","Klebin", "Jéssica"],
-    [1,6,8,34],
-    ["user","admin","Super-Admin","Visitante"]
+    ["eliel", "Tatu", "Klebin", "Jéssica"],
+    [1, 6, 8, 34],
+    ["user", "admin", "Super-Admin", "Visitante"]
 ];
 
-for($i = 1; $i < count($arr); $i++){
-    echo "Entrando no Array: $i";
-    for ($j = 0; $j < count($arr[$i][$j]);$j++){
-        echo $arr[$i][$j];
+for ($i = 0; $i < count($arr); $i++) {
+    echo "Mudando de Array : ";
+    echo "<br> ";
+    for ($j = 0; $j < count($arr[$i]); $j++) {
+        print_r($arr[$i][$j]);
+        echo "<br>";
     }
 }
