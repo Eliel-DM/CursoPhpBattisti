@@ -28,7 +28,7 @@ Orientação a Objetos.
 -   [x] Seção 8: Inclusão de código (include, require)
 -   [x] Seção 9: Funções
 -   [x] Seção 10: Avançando em Strings
--   [ ] Seção 11: Avançando em Arrays
+-   [x] Seção 11: Avançando em Arrays
 
 ### Avançado e Web
 
