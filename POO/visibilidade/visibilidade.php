@@ -1,6 +1,6 @@
 <?php
 
-class  Car
+class Car
 {
 
     public $rodas = 4;
