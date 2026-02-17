@@ -33,7 +33,7 @@ Orientação a Objetos.
 ### Avançado e Web
 
 -   [x] Seção 12: Introdução a Orientação a Objetos (OOP)
--   [ ] Seção 13: Trabalhando com Datas
+-   [x] Seção 13: Trabalhando com Datas
 -   [ ] Seção 14: PHP e a Web (HTTP, Forms, Sessions, Cookies)
 -   [ ] Seção 16: PHP e Banco de Dados (MySQL / PDO)
 -   [ ] Seção 18: Design Patterns e Padrões de Desenvolvimento
