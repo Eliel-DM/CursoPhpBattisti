@@ -34,7 +34,8 @@ Orientação a Objetos.
 
 -   [x] Seção 12: Introdução a Orientação a Objetos (OOP)
 -   [x] Seção 13: Trabalhando com Datas
--   [ ] Seção 14: PHP e a Web (HTTP, Forms, Sessions, Cookies)
+-   Pausa para fazer os módulos de HTML e CSS. 
+-   [FALTANDO SOMENTE O EXERCÍCIO FINAL] Seção 14: PHP e a Web (HTTP, Forms, Sessions, Cookies) 
 -   [ ] Seção 16: PHP e Banco de Dados (MySQL / PDO)
 -   [ ] Seção 18: Design Patterns e Padrões de Desenvolvimento
 -   [ ] Seção 19: Hospedagem e Deploy
