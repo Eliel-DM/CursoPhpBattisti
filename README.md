@@ -64,7 +64,7 @@ consolidar o conhecimento:
 
 ### Extras (Frontend)
 
--   [ ] [Seção 21: Aprendendo HTML](https://github.com/Eliel-DM/CursoPhpBattisti/tree/htmlAndCss/HTML)
+-   [x] [Seção 21: Aprendendo HTML](https://github.com/Eliel-DM/CursoPhpBattisti/tree/htmlAndCss/HTML)
 -   [ ] [Seção 22: Aprendendo CSS](https://github.com/SEU_USUARIO/SEU_REPOSITORIO/tree/htmlAndCss)
 -   [ ] [Seção 23: Projeto Prático HTML + CSS](https://github.com/SEU_USUARIO/SEU_REPOSITORIO/tree/htmlAndCss)
 -   [ ] [Seção 24/25: Telas de Inscrição e Login](https://github.com/SEU_USUARIO/SEU_REPOSITORIO/tree/htmlAndCss)
