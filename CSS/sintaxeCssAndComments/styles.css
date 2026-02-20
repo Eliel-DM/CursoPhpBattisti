@@ -1,0 +1,30 @@
+h1{
+    color:red;
+}
+p{
+    color:blue;
+}
+h2{
+    color: green;
+    text-align: center;
+    font-size: 50px;
+}
+/* Não codar o CSS DA SEGUINTE FORMA:
+
+h2{color: green;text-align:center;font-size:50px;}
+
+Ele pode complicar a manutenção futura, além de ficar
+de forma natural ruim de visibilidade organizacional
+
+*/
+
+/* Este é um comentátio*/
+
+/* 
+    este
+    é 
+    um 
+    comentário 
+    multi
+    linha
+*/
