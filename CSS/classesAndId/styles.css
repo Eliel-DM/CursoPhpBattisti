@@ -1,0 +1,14 @@
+h1 {
+    color: red;
+}
+p{
+    color: green;
+}
+
+.p-texto{
+    color: lightgreen;
+}
+
+#titulo-app{
+    color: purple;
+}
