@@ -1,0 +1,24 @@
+h1 {
+  color: red;
+}
+p {
+  color: blue;
+}
+h2 {
+  color: green;
+  text-align: center;
+  font-size: 50px;
+}
+
+/* Backgrounds */
+
+.div-background {
+  background-image: url('img/por-do-sol.jpg');
+  height: 300px;
+}
+
+.titulo-background {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}

@@ -1,0 +1,24 @@
+h1 {
+  color: red;
+}
+p {
+  color: blue;
+}
+h2 {
+  color: green;
+  text-align: center;
+  font-size: 50px;
+}
+
+.nome {
+  color: orange;
+}
+
+.hexa {
+  color: #c797f7;
+}
+
+.rgba {
+  color: rgba(63, 145, 55, 1);
+  font-size: 40px;
+}
