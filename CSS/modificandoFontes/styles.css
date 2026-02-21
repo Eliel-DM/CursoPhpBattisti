@@ -1,0 +1,49 @@
+h1 {
+  color: red;
+}
+p {
+  color: pink;
+}
+h2 {
+  color: green;
+  text-align: center;
+  font-size: 50px;
+}
+/* Fontes */
+
+.family {
+  color: #000;
+  font-size: 60px;
+}
+
+.family.serif {
+  color: purple;
+}
+
+.serif {
+  font-family: 'times new roman';
+}
+
+.sans-serif {
+  font-family: arial;
+}
+
+.monospace {
+  font-family: 'Courier New';
+}
+
+.italic {
+  font-style: italic;
+}
+
+.oblique {
+  font-style: oblique;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.variant {
+  font-variant: small-caps;
+}
