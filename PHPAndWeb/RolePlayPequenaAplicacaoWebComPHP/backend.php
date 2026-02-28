@@ -15,21 +15,12 @@ $data = [
     ['nome' => 'Ir no parquinho', 'prioridade' => 'Média', 'descricao' => 'É preciso levar o cachorro ao parque cara'],
 ];
 
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $nomeTarefa = $_POST['nome'];
+    $prioridadeTarefa = $_POST['prioridade'];
+    $descricaoTarefa = $_POST['descricao'];
 
-?>
+    array_push($data, ["nome" => $nomeTarefa, "prioridade" => $prioridadeTarefa, "descricao" => $descricaoTarefa]);
+}
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-    <form action="index.php" method="POST"></form>
-    <?php if ($data) ?>
-</body>
-
-</html>
+echo json_encode($data);

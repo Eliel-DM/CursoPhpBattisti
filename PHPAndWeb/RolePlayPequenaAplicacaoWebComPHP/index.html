@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pequeno Task Manager</title>
+  </head>
+
+  <body>
+    <form action="backend.php" method="POST" id="formTarefa">
+      Nome da tarefa: <input type="text" name="nome" /> Prioridade:
+      <select name="prioridade">
+        <option value="alta">Alta</option>
+        <option value="media">Média</option>
+        <option value="baixa">Baixa</option>
+      </select>
+      Descricao da tarefa: <input type="text" name="descricao" />
+      <input type="submit" value="Enviar" />
+      <input type="submit" value="Litar Tarefas" id="listTarefa" />
+    </form>
+    <ul id="exibirTarefas"></ul>
+    <!-- Tentando manipular o php via JavaScript para separar as funcionalidades-->
+    <script src="meioDeCampo.js"></script>
+  </body>
+</html>
