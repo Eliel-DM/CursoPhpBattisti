@@ -26,8 +26,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $prioridadeTarefa = $_POST['prioridade'];
     $descricaoTarefa = $_POST['descricao'];
 
-    // Adiciona a nova prioridade ao arr 
-    array_push($data, ["nome" => $nomeTarefa, "prioridade" => $prioridadeTarefa, "descricao" => $descricaoTarefa]);
+    if (!empty($nomeTarefa)) {
+        foreach ($data as $tarefa) {
+            if ($tarefa['nome'] == $nomeTarefa) {
+                return;
+                // Estudar e inserir algum retorno de erro/ já existente para o item informado;
+            }
+        }
+        // Adiciona a nova prioridade ao arr 
+        array_push($data, ["nome" => $nomeTarefa, "prioridade" => $prioridadeTarefa, "descricao" => $descricaoTarefa]);
+    }
 
     //Converte a lita para Json e salva no arquivo Json responsável por armazenar as tarefas;
     $jsonFinal = json_encode($data);
