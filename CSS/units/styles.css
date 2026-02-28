@@ -1,0 +1,59 @@
+h1 {
+  color: red;
+}
+p {
+  color: blue;
+}
+h2 {
+  color: green;
+  text-align: center;
+  font-size: 50px;
+}
+
+.pixel-1 {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+
+.pixel-2 {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+}
+
+.pai-porcentagem {
+  width: 500px;
+  height: 500px;
+  background-color: #000;
+}
+
+.porcentagem-1 {
+  width: 50%;
+  height: 50%;
+  background-color: yellow;
+}
+.pai-em {
+  font-size: 50px;
+}
+
+.em-1 {
+  width: 10em;
+  height: 10em;
+  background-color: purple;
+}
+
+html {
+  font-size: 20px;
+}
+
+.rem-1 {
+  width: 1rem;
+  height: 1rem;
+  background-color: aqua;
+}
+
+.rem-2 {
+  width: 2rem;
+  height: 2rem;
+}
