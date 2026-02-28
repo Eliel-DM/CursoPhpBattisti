@@ -10,17 +10,28 @@ Suas metas:
     Salvar e recuperar informações usando arquivos ou banco de dados simples.
 */
 
-$data = [
-    ['nome' => 'Criar Função PHP', 'prioridade' => 'Alta', 'descricao' => 'Realizar a criação de uma função das nervosa'],
-    ['nome' => 'Ir no parquinho', 'prioridade' => 'Média', 'descricao' => 'É preciso levar o cachorro ao parque cara'],
-];
+$nomeArquivo = 'tarefas.json';
+
+// Caso o arquivos já exista ele vai converter o conteúdo para arr, caso contrário vai somente criar um arr vazio;
+if (file_exists($nomeArquivo)) {
+    $conteudoDoArquivo = file_get_contents($nomeArquivo);
+    $data = json_decode($conteudoDoArquivo, true); // O true ele é para instruir diretamente o PHP a transformar em um array;
+} else {
+    $data =  [];
+}
+
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $nomeTarefa = $_POST['nome'];
     $prioridadeTarefa = $_POST['prioridade'];
     $descricaoTarefa = $_POST['descricao'];
 
+    // Adiciona a nova prioridade ao arr 
     array_push($data, ["nome" => $nomeTarefa, "prioridade" => $prioridadeTarefa, "descricao" => $descricaoTarefa]);
+
+    //Converte a lita para Json e salva no arquivo Json responsável por armazenar as tarefas;
+    $jsonFinal = json_encode($data);
+    file_put_contents($nomeArquivo, $jsonFinal);
 }
 
 echo json_encode($data);
