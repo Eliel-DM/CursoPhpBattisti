@@ -1,0 +1,57 @@
+h1 {
+  color: red;
+}
+p {
+  color: blue;
+}
+h2 {
+  color: green;
+  text-align: center;
+  font-size: 50px;
+}
+/* Positions */
+/* static - Flow no html, não é alterada por top, left, right e bottom*/
+/* relative  -  Flow no html, ela é alterada por top, left, right e bottom*/
+/* fixed - Posiciona em qualquer lugar da tela e é posiciona em relação ao HTML*/
+/* absolute - Posiciona em qualquer lugar, e ela respeita o seu elemento antecessor*/
+/* sticky - Está no for HTML, por´[em ao passar o scrol ela funciona como fixed */
+
+.div-position {
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  border-bottom: 2px dotted black;
+}
+
+.static {
+  position: static;
+  top: 100;
+}
+
+.relative {
+  position: relative;
+  background-color: blue;
+  top: 100px;
+  left: 50px;
+}
+
+.absolute {
+  position: absolute;
+  background-color: purple;
+  right: 0;
+  top: 0;
+}
+
+.fixed {
+  position: fixed;
+  height: 200px;
+  background-color: yellow;
+  bottom: 0;
+  right: 0;
+}
+
+.sticky {
+  position: sticky;
+  background-color: gray;
+  top: 0px;
+}
