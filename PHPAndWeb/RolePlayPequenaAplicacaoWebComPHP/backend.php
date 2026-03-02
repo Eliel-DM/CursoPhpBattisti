@@ -3,7 +3,7 @@
 Guia do role play
 Suas metas:
     1
-    Criar formulários HTML e processar dados com PHP.
+    Criar formulários HTML e processar dados com PHP. 
     2
     Implementar lógica de adicionar, editar e deletar tarefas.
     3
@@ -22,6 +22,17 @@ if (file_exists($nomeArquivo)) {
 
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+
+
+
+
+
+
+
+
+
+
+    // -------------------- ADICIONAR TAREFA ------------------------ 
     $nomeTarefa = $_POST['nome'];
     $prioridadeTarefa = $_POST['prioridade'];
     $descricaoTarefa = $_POST['descricao'];
@@ -29,17 +40,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (!empty($nomeTarefa)) {
         foreach ($data as $tarefa) {
             if ($tarefa['nome'] == $nomeTarefa) {
-                return;
-                // Estudar e inserir algum retorno de erro/ já existente para o item informado;
+                return; // Estudar e inserir algum retorno de erro/ já existente para o item informado;
             }
         }
         // Adiciona a nova prioridade ao arr 
         array_push($data, ["nome" => $nomeTarefa, "prioridade" => $prioridadeTarefa, "descricao" => $descricaoTarefa]);
+    } else {
+        return; // Estudar e inserir algum retorno e status code de item vazio;
     }
+    // -------------------- ADICIONAR TAREFA END ------------------------ 
 
     //Converte a lita para Json e salva no arquivo Json responsável por armazenar as tarefas;
     $jsonFinal = json_encode($data);
     file_put_contents($nomeArquivo, $jsonFinal);
 }
+
+
+
 
 echo json_encode($data);
