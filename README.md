@@ -65,8 +65,8 @@ Orientação a Objetos e
 ### Extras (Frontend)
 
 - [x] [Seção 21: Aprendendo HTML](https://github.com/Eliel-DM/CursoPhpBattisti/tree/htmlAndCss/HTML)
-- [x] [Seção 22: Aprendendo CSS](https://github.com/SEU_USUARIO/SEU_REPOSITORIO/tree/htmlAndCss)
-- [ ] [Seção 23: Projeto Prático HTML + CSS](https://github.com/SEU_USUARIO/SEU_REPOSITORIO/tree/htmlAndCss)
+- [x] [Seção 22: Aprendendo CSS](https://github.com/Eliel-DM/CursoPhpBattisti/tree/htmlAndCss/CSS)
+- [x] [Seção 23: Projeto Prático HTML + CSS](https://github.com/Eliel-DM/CursoPhpBattisti/tree/htmlAndCss/ProjetctHtmlAndCss)
 - [ ] [Seção 24/25: Telas de Inscrição e Login](https://github.com/SEU_USUARIO/SEU_REPOSITORIO/tree/htmlAndCss)
 
 ## 🛠️ Como rodar os arquivos
