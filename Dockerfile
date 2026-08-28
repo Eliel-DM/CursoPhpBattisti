@@ -1,4 +1,4 @@
 FROM php:8.2-apache
 
-# Instala e ativa a extensão do MySQL
-RUN docker-php-ext-install mysqli && docker-php-ext-enable mysqli
+# Instala as extensoes pdo_mysql e mysqli (caso tambem use mysqli no curso)
+RUN docker-php-ext-install pdo_mysql mysqli
